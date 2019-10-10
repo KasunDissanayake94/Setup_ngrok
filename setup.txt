@@ -1,0 +1,22 @@
+These are the steps that you should follow (Linux)
+=================================================
+
+1. Unzip above file to install ngrok using this command
+     $unzip /path/to/ngrok.zip
+
+2. Then create an Account in the Ngrok official site.
+     https://dashboard.ngrok.com/signup
+
+3. Then you should connect to your Account. After creating an account you will get a Auth Token.
+Copy it and type this command.
+
+    $ ./ngrok authtoken xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+4. Then run ngrok from the command line. To start a HTTP tunnel on port 8080 you should type this
+    $ ./ngrok http 8080
+
+5. Finish. Now you will get a remote url like this
+    http://XXXXXXXX.ngrok.io
+
+
+
